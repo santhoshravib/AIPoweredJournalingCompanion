@@ -38,17 +38,22 @@ An AI-powered journaling companion that provides:
    npm run install-all
    ```
 
-3. **Start the backend server**
+3. **Set up Claude API**
+   - Create a `.env` file in the root directory
+   - Add your Claude API key: `ANTHROPIC_API_KEY=your_api_key_here`
+   - Get your API key from [Anthropic Console](https://console.anthropic.com/)
+
+4. **Start the backend server**
    ```bash
    npm start
    ```
 
-4. **Start the frontend (in a new terminal)**
+5. **Start the frontend (in a new terminal)**
    ```bash
    npm run client
    ```
 
-5. **Open your browser**
+6. **Open your browser**
    Navigate to `http://localhost:3000`
 
 ## 🏗️ Architecture
@@ -62,6 +67,7 @@ An AI-powered journaling companion that provides:
 
 ### Backend (Node.js/Express)
 - **Runtime**: Node.js with Express.js
+- **AI Integration**: Claude API for advanced language processing
 - **NLP**: sentiment, natural, compromise libraries
 - **Security**: Helmet.js, rate limiting, CORS
 - **Scheduling**: node-cron for automated cleanup
@@ -80,9 +86,9 @@ An AI-powered journaling companion that provides:
 - **Pattern Recognition**: Historical trend analysis
 
 ### 3. Privacy-First Design
-- **On-device processing** options
+- **Cloud-based AI processing** with Claude API integration
 - **Configurable data retention** (default: 30 days)
-- **No external API calls** for core functionality
+- **Secure API communication** with rate limiting
 - **Transparent privacy controls**
 
 ### 4. Beautiful Visualizations
