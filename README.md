@@ -235,6 +235,7 @@ AIPoweredJournalingCompanion/
 ```
 
 ### Link to Demo video: https://youtu.be/v5mmsc9CUhI
+### Link to a Notebook LM Generated Podcast about my tool: https://notebooklm.google.com/notebook/8068eec1-f209-4535-bc73-2d4557a5911e?artifactId=0f5578ac-7100-42d4-b8d9-36cc5ae49579
 
 ---
 
