@@ -234,29 +234,7 @@ AIPoweredJournalingCompanion/
 └── README.md
 ```
 
-### Contributing
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-### Code Style
-- ESLint configuration included
-- Prettier formatting
-- Consistent naming conventions
-- Comprehensive comments
-
-## 📄 License
-
-MIT License - see LICENSE file for details
-
-## 🤝 Support
-
-For questions, issues, or contributions:
-- Create an issue on GitHub
-- Check the documentation
-- Review the design documentation
+### Link to Demo video: https://youtu.be/v5mmsc9CUhI
 
 ---
 
