@@ -1,0 +1,40 @@
+{
+  "name": "ai-journaling-companion",
+  "version": "1.0.0",
+  "description": "AI-Powered Journaling Companion for Mental Wellness",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "claude": "node claude-server.js",
+    "test-claude": "node test-claude.js",
+    "dev": "nodemon server.js",
+    "dev-claude": "nodemon claude-server.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.61.0",
+    "compromise": "^14.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "natural": "^6.7.0",
+    "node-cron": "^3.0.3",
+    "sentiment": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "ai",
+    "journaling",
+    "mental-health",
+    "nlp",
+    "privacy"
+  ],
+  "author": "Your Friend",
+  "license": "MIT"
+}
