@@ -438,7 +438,7 @@ export default function App() {
         animate={{ opacity: 1, y: 0 }}
       >
         <Shield className="privacy-icon" />
-        <span>Your data stays private • {connectionStatus === 'connected' ? 'On-device processing enabled' : 'Local analysis only'}</span>
+        <span>Your data stays private • {connectionStatus === 'connected' ? 'Cloud-based AI processing' : 'Local analysis only'}</span>
       </motion.div>
 
       {/* Dynamic Prompt */}
